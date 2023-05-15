@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js --ignore client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "http-proxy-middleware": "^2.0.6",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react-router-dom": "^6.3.0",
+    "serverless-http": "^3.1.1",
+    "stripe": "^11.5.0",
+    "validator": "^13.7.0"
+  }
+}
